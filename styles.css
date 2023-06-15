@@ -1,0 +1,151 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del encabezado */
+header {
+    position: fixed;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+  }
+  
+  header h1 {
+    margin: 10px;
+  }
+
+  .logo img {
+    height: 30px; /* Ajusta el tamaño de acuerdo a tus necesidades */
+    margin-right: px; /* Ajusta el espacio entre el logotipo y el texto */
+    
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  /* Ajuste de margen superior para el contenido */
+body {
+    padding-top: 130px; /* Ajusta este valor según la altura de la barra de navegación */
+  }
+  
+
+/* Estilos del banner */
+.banner {
+    background-image: url('fotos/vende.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 290px;
+    text-align: center;
+}
+
+.banner h2 {
+    margin-top: 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+/* Estilos de la lista de autos */
+.car-listing {
+    padding: 20px;
+    text-align: center;
+}
+
+.car {
+    display: inline-block;
+    width: 400px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.car img {
+    width: 100%;
+  }
+
+  /*contacto*/
+  .contact-section {
+    padding: 20px;
+  }
+  
+  .contact-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .contact-section p {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  
+  /* Estilos del pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+ 
+  
+  
+  
+  
+  
+  
