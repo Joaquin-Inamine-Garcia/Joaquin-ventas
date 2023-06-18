@@ -9,4 +9,3 @@ cars.forEach(car => {
     car.classList.toggle('highlight');
   });
 });
-
